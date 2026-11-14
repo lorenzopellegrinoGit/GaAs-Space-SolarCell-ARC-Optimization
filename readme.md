@@ -78,14 +78,3 @@ Thin-film deposition processes (e.g., PECVD, magnetron sputtering, e-beam evapor
 
 * **Perturbation Model:** Each layer thickness was independently varied with a uniform random error within **$\pm 3\%$**.
 * **Robustness Results:** While thickness errors slightly shift local interference ripples, the mean $R_{eff}$ across all 1,000 virtual fabrications remains virtually identical to the nominal **$4.02\%$**. Even in the worst-case simulated scenario, the TLARC still outperforms all nominal double- and single-layer designs, confirming high manufacturing stability.
-
----
-
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/GaAs-Space-SolarCell-ARC-Optimization.git
-   ```
-2. Open MATLAB and navigate to the `src/` directory.
-3. Ensure `AM0AM1_5.xls` is accessible in the MATLAB path.
-4. Run `Principale.m` to execute all analytical models, numerical optimizations, Monte Carlo simulations, and generate the spectral plots.
